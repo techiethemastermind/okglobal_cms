@@ -1,0 +1,15 @@
+@component('layouts.backend.components.hero-banner.icon') @endcomponent
+@component('layouts.backend.components.icon-section.icon') @endcomponent
+@component('layouts.backend.components.coins-section.icon') @endcomponent
+@component('layouts.backend.components.col-section.icon') @endcomponent
+@component('layouts.backend.components.image-section.icon') @endcomponent
+@component('layouts.backend.components.roadmap-section.icon') @endcomponent
+@component('layouts.backend.components.video-section.icon') @endcomponent
+@component('layouts.backend.components.team-section.icon') @endcomponent
+@component('layouts.backend.components.custom-section.icon') @endcomponent
+@component('layouts.backend.components.html-section.icon') @endcomponent
+@component('layouts.backend.components.banner-section.icon') @endcomponent
+@component('layouts.backend.components.country-section.icon') @endcomponent
+@component('layouts.backend.components.features-section.icon') @endcomponent
+@component('layouts.backend.components.contact-form.icon') @endcomponent
+@component('layouts.backend.components.map-section.icon') @endcomponent

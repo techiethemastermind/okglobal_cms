@@ -1,0 +1,1 @@
+function imageLoader1(){$("#select_img1").click(function(){$("#image_select1").click()}),$("#image_select1").change(function(){if(this.files&&this.files[0]){var e=new FileReader;e.onload=function(e){$("#image1").attr("src",e.target.result)},e.readAsDataURL(this.files[0])}})}$(document).ready(function(){imageLoader1()});

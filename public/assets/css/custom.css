@@ -1,0 +1,50 @@
+.avatar-img.logo {
+    object-fit: contain;
+}
+
+div[data-type=componentItem] .list-group-item {
+    box-shadow: 0 0 1px 1px rgb(18 38 63 / 10%);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+div[data-type=componentItem] .list-group-item:hover {
+    box-shadow: 0 0 3px 1px rgb(18 38 63 / 30%);
+}
+
+div[data-type=componentItem] .list-group-item span[data-type=remove] {
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: -9px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px black;
+    background-color: white;
+    text-align: center;
+    line-height: 17px;
+    color: #999;
+    cursor: pointer;
+}
+
+div[data-type=componentItem] .list-group-item:hover span[data-type=remove] {
+    display: block;
+}
+
+/** Draging **/
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+div[data-type="componentItem"] {
+    cursor: pointer;
+}
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
+div[data-type="componentItem"] li.placeholder {
+    list-style: none;
+    position: relative;
+}
